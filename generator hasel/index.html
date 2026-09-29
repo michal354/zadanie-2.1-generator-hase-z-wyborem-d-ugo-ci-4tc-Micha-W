@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'"
+    />
+    <title>Generator haseł</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="card">
+      <header>
+        <p class="eyebrow">Losowe hasło</p>
+        <h1>Generator haseł</h1>
+        <p class="lede">Wybierz długość i zestaw znaków, potem skopiuj wynik.</p>
+      </header>
+
+      <section class="output" aria-live="polite">
+        <p id="password" class="password">Kliknij „Generuj”</p>
+        <button type="button" id="copy" class="ghost" disabled>Kopiuj</button>
+      </section>
+
+      <label class="length">
+        <span class="row">
+          <span>Długość</span>
+          <strong id="lengthValue">16</strong>
+        </span>
+        <input
+          id="length"
+          type="range"
+          min="4"
+          max="64"
+          value="16"
+          step="1"
+        />
+        <input
+          id="lengthNumber"
+          type="number"
+          min="4"
+          max="64"
+          value="16"
+        />
+      </label>
+
+      <fieldset>
+        <legend>Znaki</legend>
+        <label><input type="checkbox" id="lower" checked /> małe litery</label>
+        <label><input type="checkbox" id="upper" checked /> wielkie litery</label>
+        <label><input type="checkbox" id="digits" checked /> cyfry</label>
+        <label><input type="checkbox" id="symbols" /> symbole</label>
+      </fieldset>
+
+      <p id="error" class="error" hidden></p>
+      <button type="button" id="generate">Generuj</button>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

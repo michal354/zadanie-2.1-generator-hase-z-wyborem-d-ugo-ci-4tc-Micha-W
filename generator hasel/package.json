@@ -1,0 +1,14 @@
+{
+  "name": "generator-hasel",
+  "version": "1.0.0",
+  "description": "Desktopowa aplikacja generatora haseł",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Michał Węglarz",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^32.2.0"
+  }
+}

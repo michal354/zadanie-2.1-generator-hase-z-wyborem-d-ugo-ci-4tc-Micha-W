@@ -1,0 +1,21 @@
+# Mój pierwszy agent — karta obserwacji
+
+- Narzędzie i model: cursor grok 4.6 medium
+
+- Moje zadanie (2–3 zdania): istnieje. Używałem po raz pierwszy. Ciekawa sprawa.
+
+- Pierwsza wiadomość (wklejona co do znaku): generator haseł z wyborem długości.
+
+- Co agent zrobił najpierw: Myślał i stworzył to co potrzebowałem
+
+- O co pytał — i co zostało zatwierdzone bez czytania: 
+
+- Pierwszy błąd i co agent z nim zrobił: Raczej brak błędów
+
+- Stan po 25 minutach: działa
+
+- Skąd wiem, że aplikacja działa: Odpaliłem i sprawdziłem czy i w jaki sposób działa.
+
+- Rzeczy, które agent zrobił, a których nie rozumiem: Chyba brak
+
+- Jak mi się wydawało, że poszło (jedno zdanie): Poszło raczej dobrze, ale długo myślał.
